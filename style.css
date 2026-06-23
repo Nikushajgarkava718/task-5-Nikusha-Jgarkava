@@ -14,7 +14,7 @@ a {
 }
 
 .container {
-  padding: 20px;
+  padding: 52px 140px;
   nav,
   .logo,
   li {
@@ -25,12 +25,120 @@ a {
   ul {
     a {
       color: #707070;
+      font-size: 20px;
     }
   }
 }
 
 .search {
   img {
-    max-width: 12px;
+    max-width: 20px;
   }
+}
+
+.logo {
+  img {
+    width: 64px;
+  }
+}
+
+.hero-image {
+  max-width: 1640px;
+  margin: 0px 140px;
+}
+
+.title1 {
+  font-size: 40px;
+  margin: 138px 0px 70px 140px;
+}
+
+.art1 {
+  border: 1px solid #707070;
+  width: 483px;
+  height: 563px;
+  margin: 0px 95.5px 20px 140px;
+  img {
+    width: 481px;
+  }
+
+  h3 {
+    margin: 20px 12px;
+    font-size: 30px;
+  }
+  p {
+    margin: 33px 12px;
+    font-size: 18px;
+  }
+
+  button {
+    margin-top: 73px;
+    margin-left: 414px;
+    border: none;
+    background: none;
+  }
+}
+
+.art2 {
+  border: 1px solid #707070;
+  width: 483px;
+  height: 563px;
+  margin: 0px 95.5px 20px 0px;
+  img {
+    width: 481px;
+  }
+
+  h3 {
+    margin: 20px 12px;
+    font-size: 30px;
+  }
+  p {
+    margin: 33px 12px;
+    font-size: 18px;
+  }
+
+  button {
+    margin-top: 73px;
+    margin-left: 414px;
+    border: none;
+    background: none;
+  }
+}
+
+.art3 {
+  border: 1px solid #707070;
+  width: 483px;
+  height: 563px;
+  margin: 0px 0px 20px 0px;
+  img {
+    width: 481px;
+  }
+  h3 {
+    margin: 20px 12px;
+    font-size: 30px;
+  }
+  p {
+    margin: 33px 12px;
+    font-size: 18px;
+  }
+
+  button {
+    margin-top: 73px;
+    margin-left: 414px;
+    border: none;
+    background: none;
+  }
+}
+
+.art1,
+.art2,
+.art3 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.load {
+  font-size: 30px;
+  border: none;
+  background: none;
+  margin: 56px 856px;
 }
