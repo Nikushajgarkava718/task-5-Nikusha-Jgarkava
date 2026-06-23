@@ -1,3 +1,10 @@
+@import url("https://cdn.web-fonts.ge/fonts/alk-rex-bold/css/alk-rex-bold.min.css");
+
+@font-face {
+  font-family: "geofont";
+  src: url("fonts/alk-sanet-webfont.ttf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +33,7 @@ a {
     a {
       color: #707070;
       font-size: 20px;
+      font-family: "ALK Rex Bold", sans-serif;
     }
   }
 }
@@ -50,11 +58,15 @@ a {
 .title1 {
   font-size: 40px;
   margin: 138px 0px 70px 140px;
+  color: #707070;
+  font-family: "ALK Rex Bold", sans-serif;
 }
 
 .title2 {
   font-size: 40px;
   margin: 0% 0px 70px 140px;
+  color: #707070;
+  font-family: "ALK Rex Bold", sans-serif;
 }
 
 .art1 {
@@ -69,10 +81,14 @@ a {
   h3 {
     margin: 20px 12px;
     font-size: 30px;
+    color: #707070;
+    font-family: "ALK Rex Bold", sans-serif;
   }
   p {
     margin: 33px 12px;
     font-size: 18px;
+    color: #707070;
+    font-family: "geofont";
   }
 
   button {
@@ -80,6 +96,8 @@ a {
     margin-left: 414px;
     border: none;
     background: none;
+    color: #707070;
+    font-family: "geofont";
   }
 }
 
@@ -95,10 +113,14 @@ a {
   h3 {
     margin: 20px 12px;
     font-size: 30px;
+    color: #707070;
+    font-family: "ALK Rex Bold", sans-serif;
   }
   p {
     margin: 33px 12px;
     font-size: 18px;
+    color: #707070;
+    font-family: "geofont";
   }
 
   button {
@@ -106,6 +128,8 @@ a {
     margin-left: 414px;
     border: none;
     background: none;
+    color: #707070;
+    font-family: "geofont";
   }
 }
 
@@ -120,10 +144,14 @@ a {
   h3 {
     margin: 20px 12px;
     font-size: 30px;
+    color: #707070;
+    font-family: "ALK Rex Bold", sans-serif;
   }
   p {
     margin: 33px 12px;
     font-size: 18px;
+    color: #707070;
+    font-family: "geofont";
   }
 
   button {
@@ -131,6 +159,8 @@ a {
     margin-left: 414px;
     border: none;
     background: none;
+    color: #707070;
+    font-family: "geofont";
   }
 }
 
@@ -146,10 +176,14 @@ a {
   h3 {
     margin: 20px 12px;
     font-size: 30px;
+    color: #707070;
+    font-family: "ALK Rex Bold", sans-serif;
   }
   p {
     margin: 33px 12px;
     font-size: 18px;
+    color: #707070;
+    font-family: "geofont";
   }
 
   button {
@@ -157,6 +191,8 @@ a {
     margin-left: 414px;
     border: none;
     background: none;
+    color: #707070;
+    font-family: "geofont";
   }
 }
 
@@ -172,10 +208,14 @@ a {
   h3 {
     margin: 20px 12px;
     font-size: 30px;
+    color: #707070;
+    font-family: "ALK Rex Bold", sans-serif;
   }
   p {
     margin: 33px 12px;
     font-size: 18px;
+    color: #707070;
+    font-family: "geofont";
   }
 
   button {
@@ -183,6 +223,8 @@ a {
     margin-left: 414px;
     border: none;
     background: none;
+    color: #707070;
+    font-family: "geofont";
   }
 }
 
@@ -197,10 +239,14 @@ a {
   h3 {
     margin: 20px 12px;
     font-size: 30px;
+    color: #707070;
+    font-family: "ALK Rex Bold", sans-serif;
   }
   p {
     margin: 33px 12px;
     font-size: 18px;
+    color: #707070;
+    font-family: "geofont";
   }
 
   button {
@@ -208,6 +254,8 @@ a {
     margin-left: 414px;
     border: none;
     background: none;
+    color: #707070;
+    font-family: "geofont";
   }
 }
 
@@ -227,9 +275,11 @@ a {
 
 .load {
   font-size: 30px;
+  font-family: "ALK Rex Bold", sans-serif;
   border: none;
   background: none;
   margin: 56px 856px 53px;
+  color: #707070;
 }
 
 footer {
@@ -245,8 +295,17 @@ footer {
   display: inline-block;
   vertical-align: middle;
   margin: 67px;
+  color: #ffffff;
 }
 
 .footer-logo {
   margin-left: 140px;
+}
+
+.contact {
+  font-family: "geofont";
+}
+
+.address {
+  font-family: "geofont";
 }
